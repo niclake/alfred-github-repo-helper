@@ -4,6 +4,8 @@
 
 An [Alfred workflow](https://www.alfredapp.com/workflows/) GitHub repository helper. Allows you to open the chosen repository in your browser, copy its URL to your clipboard, or navigate directly to the pull requests, issues, or projects page for that repo.
 
+**[Get the latest download here](https://github.com/niclake/alfred-github-repo-helper/releases/latest/download/)**
+
 ## To set up, do the following:
 
 1. Navigate to https://github.com/settings/tokens, and create a new Fine-Grain Token
