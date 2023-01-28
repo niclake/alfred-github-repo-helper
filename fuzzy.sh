@@ -9,4 +9,4 @@ done
 
 query="$query.*"
 
-/opt/homebrew/bin/jq --arg query "$query" '{ items: map(.[]|select(.title|test($query)))}' ./alfred-user-repos.json
+$(brew --prefix)/bin/jq --arg query "$query" '{ items: map(.[]|select(.title|test($query)))}' ./alfred-user-repos.json
